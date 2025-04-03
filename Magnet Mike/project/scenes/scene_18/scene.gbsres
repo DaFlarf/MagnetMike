@@ -1,0 +1,56 @@
+{
+  "_resourceType": "scene",
+  "id": "602ddd3c-f409-4121-a79b-e4e1d7e94697",
+  "_index": 10,
+  "name": "Scene 18",
+  "backgroundId": "b340b9a2-2865-4e05-91c0-148846a693c8",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f52+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+00e+082+0f4+00e+082+0f4+00e+0f6+00e+0fd+002+0f12+002+0f9+083+0f11+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_18",
+  "x": 544,
+  "y": 584,
+  "script": [
+    {
+      "command": "EVENT_CAMERA_PROPERTY_SET",
+      "args": {
+        "property": "camera_deadzone_x",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "f1140e79-1ef1-428f-b99e-34ff06002477"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "9e63fcea-bb03-4921-81df-6f223d2044ad"
+      },
+      "id": "a0a82477-ef5f-4ffd-b502-a62a93b6efd3"
+    },
+    {
+      "command": "EVENT_CAMERA_SET_POSITION",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "7b1fc315-5149-4d59-8271-6dab9fa480a0"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "labelColor": ""
+}
