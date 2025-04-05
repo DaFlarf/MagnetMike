@@ -10,7 +10,7 @@
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "0f52+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+00e+082+0f4+00e+082+0f4+00e+0f6+00e+0fd+002+0f12+002+0f9+002+0f12+",
+  "collisions": "0015+0f12+002+0f12+002+0f12+002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f8+002+0f8+009+0f!002+0f!0010+0f4+008+",
   "autoFadeSpeed": 1,
   "symbol": "scene_18",
   "x": 544,
@@ -47,10 +47,28 @@
         }
       },
       "id": "7b1fc315-5149-4d59-8271-6dab9fa480a0"
+    },
+    {
+      "command": "EVENT_LOOP",
+      "args": {},
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_GET_DIRECTION",
+            "args": {
+              "actorId": "$self$",
+              "direction": "18"
+            },
+            "id": "f459c171-73d4-494c-8b73-c87081a9f62d"
+          }
+        ]
+      },
+      "id": "548b6098-8d00-4795-a54d-c207919b6df9"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "labelColor": ""
+  "labelColor": "",
+  "autoFadeEventCollapse": false
 }

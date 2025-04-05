@@ -1,0 +1,83 @@
+{
+  "_resourceType": "actor",
+  "id": "84bd7335-38fa-4a64-b8f8-aa0feff788b4",
+  "name": "magnetic rock for some reason",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "3939e8d2-3987-4a22-953e-f1d82134eccf",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_2",
+  "script": [
+    {
+      "command": "EVENT_IF_INPUT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_GET_DIRECTION",
+            "args": {
+              "actorId": "player",
+              "direction": "T1",
+              "__collapse": false
+            },
+            "id": "351cecce-9f23-4e50-952a-f5deb6d0a6dd"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_DIRECTION",
+            "args": {
+              "actorId": "$self$",
+              "direction": {
+                "type": "variable",
+                "value": "T1"
+              },
+              "__collapse": false
+            },
+            "id": "287b42e9-73e1-4ffe-9ae0-fa27b01d1b9e"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_COLLISION_BOX",
+            "args": {
+              "actorId": "$self$",
+              "x": -78,
+              "y": -78,
+              "width": 128,
+              "height": 128,
+              "__collapse": false
+            },
+            "id": "884e21da-cba5-4ee7-a26b-7ecf73413001"
+          },
+          {
+            "command": "EVENT_ACTOR_PUSH",
+            "args": {
+              "continue": false
+            },
+            "id": "6ae205e1-dc67-4b5e-a534-4f1df03920aa"
+          }
+        ],
+        "false": []
+      },
+      "id": "0236f658-bc47-4ce5-87dd-2bda2771f993"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 4,
+  "y": 12,
+  "_index": 0
+}
