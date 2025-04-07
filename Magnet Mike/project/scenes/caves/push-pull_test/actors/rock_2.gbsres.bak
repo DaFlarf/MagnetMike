@@ -20,11 +20,12 @@
   "prefabScriptOverrides": {},
   "script": [
     {
-      "id": "716ff2d8-2e7e-43ce-be38-9792a1554b13",
       "command": "EVENT_ACTOR_PUSH",
       "args": {
-        "continue": false
-      }
+        "continue": false,
+        "__collapse": false
+      },
+      "id": "047990ae-4bfb-4858-a417-20dc31f4da57"
     }
   ],
   "startScript": [],
