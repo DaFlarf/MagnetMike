@@ -1,7 +1,7 @@
 {
   "_resourceType": "actor",
   "id": "84bd7335-38fa-4a64-b8f8-aa0feff788b4",
-  "name": "magnetic rock for some reason",
+  "name": "pushable object (non-magnetic)",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "3939e8d2-3987-4a22-953e-f1d82134eccf",
@@ -219,6 +219,28 @@
         "false": []
       },
       "id": "41d5b84d-d312-41d9-8642-73674b0c9554"
+    },
+    {
+      "command": "EVENT_IF_INPUT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_PUSH",
+            "args": {
+              "continue": false
+            },
+            "id": "011869ce-9c2b-4124-81e7-70a2454b4463"
+          }
+        ],
+        "false": []
+      },
+      "id": "a37eb7cf-b65a-42b6-842f-68a85b44c3d9"
     }
   ],
   "startScript": [],

@@ -3,28 +3,28 @@
   "variables": [
     {
       "id": "0",
-      "name": "Quest1",
-      "symbol": ""
+      "name": "charge_type",
+      "symbol": "var_charge_type"
     },
     {
       "id": "1",
-      "name": "Quest2",
-      "symbol": ""
+      "name": "player_direction",
+      "symbol": "var_player_direction"
     },
     {
       "id": "2",
-      "name": "Quest3",
-      "symbol": ""
+      "name": "magnet_active",
+      "symbol": "var_magnet_active"
     },
     {
       "id": "3",
-      "name": "Quest4",
-      "symbol": ""
+      "name": "player_x",
+      "symbol": "var_player_x"
     },
     {
       "id": "4",
-      "name": "Quest5",
-      "symbol": ""
+      "name": "player_y",
+      "symbol": "var_player_y"
     },
     {
       "id": "5",
@@ -92,6 +92,11 @@
       "symbol": "var_music_house_playing"
     },
     {
+      "id": "18",
+      "name": "{PLAYER DIR}",
+      "symbol": "var_player_dir_"
+    },
+    {
       "id": "871ea302-1cc1-463c-b9d7-530aac38fe81__L0",
       "name": "Spoken to gardener",
       "symbol": ""
@@ -147,9 +152,19 @@
       "symbol": "var_flower_tile"
     },
     {
-      "id": "18",
-      "name": "{PLAYER DIR}",
-      "symbol": "var_player_dir_"
+      "id": "84bd7335-38fa-4a64-b8f8-aa0feff788b4__L0",
+      "name": "player_dir",
+      "symbol": "var_player_dir"
+    },
+    {
+      "id": "0794e80f-3d91-4c80-80a3-6412391f466b__L0",
+      "name": "Local 0",
+      "symbol": "var_local_0"
+    },
+    {
+      "id": "602ddd3c-f409-4121-a79b-e4e1d7e94697__L0",
+      "name": "Local 0",
+      "symbol": "var_local_1"
     }
   ]
 }
