@@ -165,6 +165,26 @@
       "id": "602ddd3c-f409-4121-a79b-e4e1d7e94697__L0",
       "name": "Local 0",
       "symbol": "var_local_1"
+    },
+    {
+      "id": "4f71cf7a-9768-4265-abdc-cdd16bdddab6__L0",
+      "name": "pos_crate_y",
+      "symbol": "var_pos_crate_y"
+    },
+    {
+      "id": "4f71cf7a-9768-4265-abdc-cdd16bdddab6__L1",
+      "name": "pos_crate_x",
+      "symbol": "var_pos_crate_x_0"
+    },
+    {
+      "id": "4f71cf7a-9768-4265-abdc-cdd16bdddab6__L2",
+      "name": "dist_x",
+      "symbol": "var_dist_x"
+    },
+    {
+      "id": "4f71cf7a-9768-4265-abdc-cdd16bdddab6__L3",
+      "name": "dist_y",
+      "symbol": "var_dist_y"
     }
   ]
 }

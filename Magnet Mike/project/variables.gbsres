@@ -185,6 +185,26 @@
       "id": "4f71cf7a-9768-4265-abdc-cdd16bdddab6__L3",
       "name": "dist_y",
       "symbol": "var_dist_y"
+    },
+    {
+      "id": "d67cc5f3-5c74-484a-9e42-649db0bfb52b__L0",
+      "name": "pos_crate_y",
+      "symbol": "var_pos_crate_y_0"
+    },
+    {
+      "id": "d67cc5f3-5c74-484a-9e42-649db0bfb52b__L1",
+      "name": "pos_crate_x",
+      "symbol": "var_pos_crate_x"
+    },
+    {
+      "id": "d67cc5f3-5c74-484a-9e42-649db0bfb52b__L2",
+      "name": "dist_x",
+      "symbol": "var_dist_x_0"
+    },
+    {
+      "id": "d67cc5f3-5c74-484a-9e42-649db0bfb52b__L3",
+      "name": "dist_y",
+      "symbol": "var_dist_y_0"
     }
   ]
 }
