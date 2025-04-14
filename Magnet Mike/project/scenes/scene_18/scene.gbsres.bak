@@ -10,7 +10,7 @@
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "0015+0f12+002+0f12+002+0f12+002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f8+002+0f8+009+0f!002+0f!0010+0f4+008+",
+  "collisions": "0015+0f12+002+0f12+002+0f12+002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!008+0f2+006+0f!002+0f!008+0f2+006+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f8+002+0f8+009+0f!002+0f!0010+0f4+008+",
   "autoFadeSpeed": 1,
   "symbol": "scene_18",
   "x": 544,
@@ -78,6 +78,43 @@
             },
             "children": {
               "true": [
+                {
+                  "command": "FO_EVENT_CUSTOM_PROJECTILE",
+                  "args": {
+                    "tabs": "general",
+                    "lifetime": false,
+                    "bounds": false,
+                    "ignore": false,
+                    "gravity": 0,
+                    "collision": 1,
+                    "bounce": 0,
+                    "death": 0,
+                    "varX": "L0",
+                    "varY": "L0",
+                    "projectile": 0,
+                    "arc_height": 50,
+                    "distance": 2,
+                    "amplitude": 30,
+                    "frequency": 10,
+                    "phase": 64,
+                    "actor": "$self$",
+                    "orbit_x_offset": 0,
+                    "orbit_y_offset": 0,
+                    "orbit_amplitude": 100,
+                    "orbit_frequency": 20,
+                    "orbit_phase": 64,
+                    "launch": false,
+                    "hookshot_chain": 0,
+                    "anchor_ignore": true,
+                    "dir_offset": 0,
+                    "customX": "L0",
+                    "customY": "L0"
+                  },
+                  "children": {
+                    "script": []
+                  },
+                  "id": "2e1c5a0c-0eec-4f22-9266-64bb60ab4903"
+                },
                 {
                   "command": "EVENT_LAUNCH_PROJECTILE",
                   "args": {
@@ -166,6 +203,43 @@
       },
       "children": {
         "true": [
+          {
+            "command": "FO_EVENT_CUSTOM_PROJECTILE",
+            "args": {
+              "tabs": "general",
+              "lifetime": false,
+              "bounds": false,
+              "ignore": false,
+              "gravity": 0,
+              "collision": 1,
+              "bounce": 0,
+              "death": 0,
+              "varX": "L0",
+              "varY": "L0",
+              "projectile": 0,
+              "arc_height": 50,
+              "distance": 2,
+              "amplitude": 30,
+              "frequency": 10,
+              "phase": 64,
+              "actor": "$self$",
+              "orbit_x_offset": 0,
+              "orbit_y_offset": 0,
+              "orbit_amplitude": 100,
+              "orbit_frequency": 20,
+              "orbit_phase": 64,
+              "launch": false,
+              "hookshot_chain": 0,
+              "anchor_ignore": true,
+              "dir_offset": 0,
+              "customX": "L0",
+              "customY": "L0"
+            },
+            "children": {
+              "script": []
+            },
+            "id": "519a6a77-e4a2-4bdb-a8c7-f3251e9cfd19"
+          },
           {
             "command": "EVENT_IF",
             "args": {
