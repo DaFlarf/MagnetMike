@@ -49,6 +49,28 @@
       "id": "7b1fc315-5149-4d59-8271-6dab9fa480a0"
     },
     {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "5",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "13aac210-d432-4e2a-b086-b7e30c449c4d"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L0",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "8b1649de-9be6-4e1f-b655-5ab8e71c5123"
+    },
+    {
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
@@ -79,43 +101,6 @@
             "children": {
               "true": [
                 {
-                  "command": "FO_EVENT_CUSTOM_PROJECTILE",
-                  "args": {
-                    "tabs": "general",
-                    "lifetime": false,
-                    "bounds": false,
-                    "ignore": false,
-                    "gravity": 0,
-                    "collision": 1,
-                    "bounce": 0,
-                    "death": 0,
-                    "varX": "L0",
-                    "varY": "L0",
-                    "projectile": 0,
-                    "arc_height": 50,
-                    "distance": 2,
-                    "amplitude": 30,
-                    "frequency": 10,
-                    "phase": 64,
-                    "actor": "$self$",
-                    "orbit_x_offset": 0,
-                    "orbit_y_offset": 0,
-                    "orbit_amplitude": 100,
-                    "orbit_frequency": 20,
-                    "orbit_phase": 64,
-                    "launch": false,
-                    "hookshot_chain": 0,
-                    "anchor_ignore": true,
-                    "dir_offset": 0,
-                    "customX": "L0",
-                    "customY": "L0"
-                  },
-                  "children": {
-                    "script": []
-                  },
-                  "id": "2e1c5a0c-0eec-4f22-9266-64bb60ab4903"
-                },
-                {
                   "command": "EVENT_LAUNCH_PROJECTILE",
                   "args": {
                     "__section": "projectile",
@@ -139,7 +124,8 @@
                     "collisionGroup": "1",
                     "collisionMask": [
                       "1",
-                      "2"
+                      "2",
+                      "3"
                     ]
                   },
                   "id": "b0f25193-1437-438a-84e2-84f16a3e3a7e"
@@ -199,7 +185,8 @@
           "b"
         ],
         "override": false,
-        "__scriptTabs": "press"
+        "__scriptTabs": "press",
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -239,43 +226,6 @@
               "script": []
             },
             "id": "fbcf251e-beb5-4dc1-af78-1a2142707b28"
-          },
-          {
-            "command": "FO_EVENT_CUSTOM_PROJECTILE",
-            "args": {
-              "tabs": "general",
-              "lifetime": false,
-              "bounds": false,
-              "ignore": false,
-              "gravity": 0,
-              "collision": 1,
-              "bounce": 0,
-              "death": 0,
-              "varX": "L0",
-              "varY": "L0",
-              "projectile": 0,
-              "arc_height": 50,
-              "distance": 2,
-              "amplitude": 30,
-              "frequency": 10,
-              "phase": 64,
-              "actor": "$self$",
-              "orbit_x_offset": 0,
-              "orbit_y_offset": 0,
-              "orbit_amplitude": 100,
-              "orbit_frequency": 20,
-              "orbit_phase": 64,
-              "launch": false,
-              "hookshot_chain": 0,
-              "anchor_ignore": true,
-              "dir_offset": 0,
-              "customX": "L0",
-              "customY": "L0"
-            },
-            "children": {
-              "script": []
-            },
-            "id": "519a6a77-e4a2-4bdb-a8c7-f3251e9cfd19"
           },
           {
             "command": "EVENT_IF",
@@ -319,7 +269,8 @@
                     "collisionGroup": "2",
                     "collisionMask": [
                       "1",
-                      "2"
+                      "2",
+                      "3"
                     ]
                   },
                   "id": "7491a7f7-237e-4757-ba05-b776ef40a101"
@@ -371,6 +322,37 @@
         ]
       },
       "id": "6471839f-1d7e-4d84-b3b4-c5198dcafe4c"
+    },
+    {
+      "command": "EVENT_LOOP",
+      "args": {},
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "L0"
+                },
+                "valueB": {
+                  "type": "variable",
+                  "value": "5"
+                }
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [],
+              "false": []
+            },
+            "id": "5c4dd8dd-61dc-4db5-b9a9-6e7aaaf16bbe"
+          }
+        ]
+      },
+      "id": "5eaf580b-31a4-4ce4-869c-9da73084d68c"
     }
   ],
   "playerHit1Script": [],

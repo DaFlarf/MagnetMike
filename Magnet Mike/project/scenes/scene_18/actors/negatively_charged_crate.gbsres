@@ -15,7 +15,43 @@
   "collisionGroup": "1",
   "prefabScriptOverrides": {},
   "symbol": "actor_3",
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_IF_INPUT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_PUSH",
+            "args": {
+              "continue": false
+            },
+            "id": "51656029-3cf8-4a73-82f2-84b7b5b66a7f"
+          },
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "c813f22b-8f5d-49e5-a006-54d9e6a35367",
+              "priority": "low",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 0
+            },
+            "id": "b3d242b9-97a2-4f75-85dc-55f47b497e0b"
+          }
+        ],
+        "false": []
+      },
+      "id": "380a351d-7071-44fd-9f4b-fbfb8a00d4cb"
+    }
+  ],
   "startScript": [],
   "updateScript": [],
   "hit1Script": [
@@ -232,7 +268,7 @@
                       "value": 2
                     },
                     "moveType": "horizontal",
-                    "useCollisions": false
+                    "useCollisions": true
                   },
                   "id": "ff1c7375-da7c-40a5-b9ef-eea9ad064a48"
                 }
@@ -292,7 +328,7 @@
                             "value": -2
                           },
                           "moveType": "horizontal",
-                          "useCollisions": false
+                          "useCollisions": true
                         },
                         "id": "c8b0157f-45ed-463d-8bdb-7e9969f34339"
                       }
@@ -309,6 +345,19 @@
         ]
       },
       "id": "f36c9187-6cf1-4828-80a2-71bd8e27fa54"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "c813f22b-8f5d-49e5-a006-54d9e6a35367",
+        "priority": "low",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 0
+      },
+      "id": "22d488b6-e941-4bc8-85fc-baa0954a52f6"
     }
   ],
   "hit2Script": [
@@ -525,7 +574,7 @@
                       "value": 2
                     },
                     "moveType": "horizontal",
-                    "useCollisions": false
+                    "useCollisions": true
                   },
                   "id": "98eb009f-4b57-48b4-9017-88e6620afb67"
                 }
@@ -585,7 +634,7 @@
                             "value": -2
                           },
                           "moveType": "horizontal",
-                          "useCollisions": false
+                          "useCollisions": true
                         },
                         "id": "9a377137-8d1c-4535-8962-9d7643a61d40"
                       }
@@ -602,6 +651,19 @@
         ]
       },
       "id": "2d33cc7d-fef7-4c73-8bb0-500f301af994"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "c813f22b-8f5d-49e5-a006-54d9e6a35367",
+        "priority": "low",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 0
+      },
+      "id": "547c103e-1312-47a4-a3ba-7bc68ef418b2"
     }
   ],
   "hit3Script": [],
