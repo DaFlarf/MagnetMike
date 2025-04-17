@@ -1,10 +1,10 @@
 {
   "_resourceType": "actor",
-  "id": "ac9aa1fd-f008-4c24-a784-db1660083225",
-  "name": "",
+  "id": "a9acd7d2-3a5b-40c8-a3be-cf0cd8241778",
+  "name": "A fricking wall",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "17219846-cda9-4e84-bdfa-c3ff105d42cc",
+  "spriteSheetId": "09ad70c6-3ce5-4b97-9e96-466221418a45",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -12,7 +12,7 @@
   "paletteId": "",
   "isPinned": false,
   "persistent": false,
-  "collisionGroup": "1",
+  "collisionGroup": "",
   "prefabScriptOverrides": {},
   "symbol": "actor_5",
   "script": [],
@@ -21,7 +21,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 10,
-  "y": 9,
+  "x": 15,
+  "y": 5,
   "_index": 3
 }

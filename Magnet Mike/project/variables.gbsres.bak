@@ -33,8 +33,8 @@
     },
     {
       "id": "6",
-      "name": "Quest7",
-      "symbol": ""
+      "name": "target_amount",
+      "symbol": "var_target_amount"
     },
     {
       "id": "7",
@@ -163,7 +163,7 @@
     },
     {
       "id": "602ddd3c-f409-4121-a79b-e4e1d7e94697__L0",
-      "name": "Local 0",
+      "name": "local_0",
       "symbol": "var_local_1"
     },
     {
@@ -215,6 +215,16 @@
       "id": "4f71cf7a-9768-4265-abdc-cdd16bdddab6__L5",
       "name": "target_pos_y",
       "symbol": "var_target_pos_y"
+    },
+    {
+      "id": "d67cc5f3-5c74-484a-9e42-649db0bfb52b__L4",
+      "name": "target_pos_x",
+      "symbol": "var_target_pos_x_0"
+    },
+    {
+      "id": "d67cc5f3-5c74-484a-9e42-649db0bfb52b__L5",
+      "name": "target_pos_y",
+      "symbol": "var_target_pos_y_0"
     }
   ]
 }
