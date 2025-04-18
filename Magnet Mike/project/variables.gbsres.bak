@@ -163,8 +163,8 @@
     },
     {
       "id": "602ddd3c-f409-4121-a79b-e4e1d7e94697__L0",
-      "name": "local_0",
-      "symbol": "var_local_1"
+      "name": "reset_level",
+      "symbol": "var_reset_level"
     },
     {
       "id": "4f71cf7a-9768-4265-abdc-cdd16bdddab6__L0",

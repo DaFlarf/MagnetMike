@@ -404,5 +404,6 @@
   "playerHit2Script": [],
   "playerHit3Script": [],
   "labelColor": "",
-  "autoFadeEventCollapse": false
+  "autoFadeEventCollapse": false,
+  "playerSpriteSheetId": "6f6bd73f-8598-4097-8daa-dff415472361"
 }
