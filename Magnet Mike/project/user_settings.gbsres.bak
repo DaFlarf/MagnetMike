@@ -1,8 +1,8 @@
 {
   "_resourceType": "settings",
-  "worldScrollX": 348.79998779296875,
-  "worldScrollY": 336.79998779296875,
-  "zoom": 125,
+  "worldScrollX": 962,
+  "worldScrollY": 924,
+  "zoom": 225,
   "navigatorSplitSizes": [
     205,
     30,
@@ -16,9 +16,10 @@
   "showCollisionSlopeTiles": false,
   "favoriteEvents": [
     "EVENT_TEXT",
-    "EVENT_SWITCH_SCENE"
+    "EVENT_SWITCH_SCENE",
+    "EVENT_IF_ACTOR_AT_POSITION"
   ],
-  "debuggerEnabled": true,
+  "debuggerEnabled": false,
   "debuggerScriptType": "editor",
   "debuggerVariablesFilter": "all",
   "debuggerCollapsedPanes": [],
