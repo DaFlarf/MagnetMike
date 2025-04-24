@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "602ddd3c-f409-4121-a79b-e4e1d7e94697",
-  "_index": 10,
+  "_index": 4,
   "name": "Scene 18",
   "backgroundId": "5b192b93-3957-4b76-8c92-423eabbcd285",
   "tilesetId": "",
@@ -13,8 +13,8 @@
   "collisions": "0061+0f1e+002+0f!00d+0f4+00b+0f!002+0f!00d+0f4+00b+0f!002+0f!0011+0f2+002+0f2+005+0f!002+0f!0011+0f2+002+0f2+005+0f!002+0f!001c+0f!002+0f!001c+0f!002+0f!001c+0f!002+0f!001c+0f!002+0f!001c+0f!002+0f!001c+0f!002+0f!001c+0f!002+0f8+002+0f14+009+0f!002+0f!001c+0f4+0014+",
   "autoFadeSpeed": 1,
   "symbol": "scene_18",
-  "x": 544,
-  "y": 584,
+  "x": 520,
+  "y": 80,
   "script": [
     {
       "command": "EVENT_CAMERA_PROPERTY_SET",
