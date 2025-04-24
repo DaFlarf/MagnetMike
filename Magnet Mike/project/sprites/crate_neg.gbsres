@@ -46,6 +46,32 @@
                   "objPalette": "OBP0",
                   "paletteIndex": 0,
                   "priority": false
+                },
+                {
+                  "id": "8553766c-7dd7-4bb0-b50e-93ca053786e7",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 64,
+                  "sliceY": 8,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "90b0d9cd-1b04-475f-955d-1770bfb2b170",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 72,
+                  "sliceY": 8,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
                 }
               ]
             }

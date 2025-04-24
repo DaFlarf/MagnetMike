@@ -38,8 +38,8 @@
     },
     {
       "id": "7",
-      "name": "Quest8",
-      "symbol": ""
+      "name": "levels_beaten",
+      "symbol": "var_levels_beaten"
     },
     {
       "id": "8",
