@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "aba2b10f-23da-40d8-ae84-8ec83bda35e4",
+  "name": "2_tiles-export",
+  "symbol": "bg_2_tiles_export",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "2_tiles-export.png",
+  "tileColors": ""
+}
