@@ -27,7 +27,25 @@
         "__collapseElse": true
       },
       "children": {
-        "true": [],
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "cf4e439d-0775-42c1-814d-a2b5e6b61926",
+              "x": {
+                "type": "number",
+                "value": 2
+              },
+              "y": {
+                "type": "number",
+                "value": 10
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "a427879c-4500-4751-8056-25f0c3d29e52"
+          }
+        ],
         "false": []
       },
       "id": "abe346f5-0d7a-499b-b7df-3a75bc7243df"
@@ -36,7 +54,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "I bet you think\nyou're reeal funny"
+          "I bet you think\nyou're reeal funny\n(who are you? flarf?)"
         ],
         "__section": "text",
         "avatarId": "",

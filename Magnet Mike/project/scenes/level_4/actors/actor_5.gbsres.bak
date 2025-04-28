@@ -1,10 +1,10 @@
 {
   "_resourceType": "actor",
-  "id": "ebe9d12d-c9bd-4151-aab1-1646a07be3f1",
+  "id": "fd3d76bb-ed1c-4ab4-bdae-e7558fb0610a",
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "0450571c-356b-4be1-87e6-9eb168dc27f4",
+  "spriteSheetId": "1aef83dc-a69d-41bc-8882-56cce4f6c147",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -12,9 +12,9 @@
   "paletteId": "",
   "isPinned": false,
   "persistent": false,
-  "collisionGroup": "3",
+  "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_21",
+  "symbol": "actor_33",
   "script": [],
   "startScript": [],
   "updateScript": [
@@ -47,7 +47,7 @@
                 },
                 "valueB": {
                   "type": "number",
-                  "value": 2
+                  "value": 4
                 }
               },
               "__collapseElse": true
@@ -60,15 +60,15 @@
                     "variable": "7",
                     "value": {
                       "type": "number",
-                      "value": 2
+                      "value": 4
                     }
                   },
-                  "id": "5da684d6-c974-4024-8561-cf709056fee8"
+                  "id": "931e059b-7716-4223-9705-a5cf0371de6a"
                 }
               ],
               "false": []
             },
-            "id": "bc4a0676-a267-4c95-8239-a3bb4cebf06f"
+            "id": "ed9d12ad-19a7-46bc-ade4-eac9ec70baf7"
           },
           {
             "command": "EVENT_SWITCH_SCENE",
@@ -85,18 +85,18 @@
               "direction": "",
               "fadeSpeed": "2"
             },
-            "id": "28c06e7d-d6d2-4afd-82f8-fa7c70d41b1a"
+            "id": "7a454be2-36e5-4566-8904-c5bccc715569"
           }
         ],
         "false": []
       },
-      "id": "1b969551-67e2-4ef0-97e0-5c4c19e809ff"
+      "id": "e7abb9c9-fc7e-4a8e-a2dd-b6579b2bd005"
     }
   ],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 13,
-  "y": 8,
+  "x": 14,
+  "y": 16,
   "_index": 4
 }
