@@ -1,0 +1,81 @@
+{
+  "_resourceType": "trigger",
+  "id": "3ff2445f-5832-4be9-8141-8fc4be39f3bb",
+  "name": "",
+  "prefabId": "",
+  "x": 6,
+  "y": 1,
+  "symbol": "trigger_1",
+  "prefabScriptOverrides": {},
+  "width": 3,
+  "height": 3,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "gte",
+          "valueA": {
+            "type": "variable",
+            "value": "7"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "a839f85f-49cd-415f-bdb6-5e8c9f6aa916",
+              "x": {
+                "type": "number",
+                "value": 1
+              },
+              "y": {
+                "type": "number",
+                "value": 3
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "4949dfce-4f5e-415b-b4d2-27e6e348ca35"
+          }
+        ],
+        "false": []
+      },
+      "id": "ba80a79e-63b6-43db-9051-7dd89bbc050c"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Beat level 1 first, \nbuster!!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "ff29eba7-0ba2-4943-ad06-a699d2ec9d2a"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 1
+}

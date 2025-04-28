@@ -3,11 +3,11 @@
   "id": "5295451a-ca61-4b0d-ad4e-0a335d230f94",
   "_index": 7,
   "name": "Level Select",
-  "backgroundId": "1da35172-aea4-40b4-8215-7992d9245b34",
+  "backgroundId": "f53c5881-e25c-4bff-8b63-4e5f8b6102d0",
   "tilesetId": "",
   "width": 20,
   "height": 18,
-  "type": "TOPDOWN",
+  "type": "POINTNCLICK",
   "paletteIds": [],
   "spritePaletteIds": [],
   "collisions": "",
@@ -15,7 +15,69 @@
   "symbol": "scene_8",
   "x": 784,
   "y": 80,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "gt",
+          "valueA": {
+            "type": "variable",
+            "value": "7"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SAVE_DATA",
+            "args": {
+              "saveSlot": 0,
+              "__scriptTabs": "save"
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "game saved"
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "3dae9be0-99b2-40d3-be93-8def1fa7d1eb"
+                }
+              ],
+              "load": []
+            },
+            "id": "554b4f8c-2d44-427b-ba14-67ef34e0726b"
+          }
+        ],
+        "false": []
+      },
+      "id": "e8fdd9ea-316f-4cde-9b3b-d2375d9bfed6"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": []

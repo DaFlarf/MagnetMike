@@ -1,0 +1,173 @@
+
+Thank you for acquiring ".EXE, Cogito ergo sum"!
+
+[Before you start playing, please read this manual .txt
+carefully and be sure to follow the correct operating to 
+procedure. Keep this .txt safe for future reference]
+
+CONTENTS
+1. How to Play.
+2. GB Studio
+3. Controls
+4. Meet the Family
+5. Items and Programs
+6. The nature of this Manual
+7. Feedback
+8. Zenith's Outer Reach
+9. Credits
+
+- How to play
+
+".EXE, Cogito ergo sum" is a Game Boy Compatible game, 
+it works as an actual Gameboy Game ROM.
+
+Unzip the Zipped folder and open the .gb file 
+using a Game boy emulator. I usually do it by clicking 
+and dragging the file onto the emulator.
+
+
+- GB Studio.
+
+This game was made in GB Studio, an engine that 
+is pretty intuitive, but that is still in develpoment.
+There will be times that certain ojects/npcs will just 
+not render if you walk in "wrong", some texture 
+will glitch a bit, rendering pixes where they're 
+not supposed to be, things like that.
+
+I believe this version of GB Studio ( V2 beta) i used
+to make this game was made for the creation of simpler games,
+and i only realized how these bugs affected some playthroughs 
+when i was more than halfway done with it, so i've made the 
+decision of finishing it in this version and consider remaking
+it when GB studio gets better versions.
+
+So I reccomend that you use your emulator's 
+save states along with the game's built-in
+save system.
+
+I will also consider writing an walkthrough later on.
+
+With that said, GB Studio still made all of this possible, and
+even if the engine is not perfect (yet), they deserve credit and
+all the support they can get. Go check them out!
+
+https://www.gbstudio.dev/
+
+-Controls
+
+Button A...... Confirm/Interact
+Button B...... Cancel
+D-Pad......... Select/Move
+Select........ N/A
+Start.........Pull out/Put away Inventory
+
+Items will work automatically as you interact.
+Start button won't work until you get a certain item.
+
+-Meet The Family!
+
+- ???(Main Chacter/You)
+Main Characteristic: Wavy-Curly Fur.
+Pronouns: He/Him.
+Profession: Jack of All Trades
+
+Nothing really comes to mind when describing this 
+Protogen, except that he took a liking to sleeping. 
+You'll be controlling them. 
+
+- FM (Father-Mother?)
+Main Characteristic: Snow White fur.
+Pronouns: They/Them
+Profession: Ship's pilot, Master of All.
+
+They keep the Family together. Fatherly and
+Motherly at times, not just to YOU but to
+the other integrants as well.
+They're considered the Leader.
+
+- BB (BlackBunny)
+Main Characteristic: Long Ears.
+Pronouns: He/Him
+Profession: Information and Communications Technology Guy. 
+
+He's a bit anti-social and have issues with socializing.
+Very skilled in the ICT area, and is usually in charge of
+maintaining the technology on-board.
+
+-Tommorrow ( Yes, with TWO "M"s)
+Main Characteristic: Long Fur.
+Pronouns: She/Her
+Profession: Herbologist, Gardener, Florist, Flora Expert.
+
+Illiterate, and even if she's quite social, she struggles 
+with expressing herself. She's really good with plants though,
+to the point she single-handedly supports all the life on the ship
+with what she makes in the Green Room.
+
+-MK(M1ke)
+Main characteristic: Big Build.
+Pronouns: He/Him.
+Profession: Mechanic, Heavy-Duty Go-to.
+
+If BB can't fix it, it's probably MK's Responsabilty. He's the one
+who usually fixes the propulsors, the Gravity module, Appliances, you name it.
+He will Work with BB if there's any Sofware-Hardware integration involved.
+Really strong.
+
+- Items and Programs
+
+Link-in Cable: Cable used to connect to a Device's CyberSpace. Cheaper cables
+won't support bigger CyberSpaces.
+
+Crowbar: Used to unjam jammed doors. Rudimentary, but efficient.
+
+Remote Controller: Short Reach Radio-wave remote controllers. Activates and 
+Deactivates... something?
+
+Level-? License Cards: Gives you permission to access cartain areas.
+
+FireWall Breaker: Hacking Program. Obliterates FireWalls with a hit.
+
+TruthReveal: Hacking Program. By-passes all encryption and shows the user the
+true form of the object.
+
+And more!
+
+- The nature of this Manual
+
+The Manual works more as a little extra content as
+something useful. Of course, there's a bit of useful information
+but it's not really something you NEED to read in order to 
+understand the game.
+
+With that said, i've also added maps by the end of it, but they're
+not as useful as they look.
+
+-Feedback
+
+If you've completed the Game, your feedback is appreciated!
+Please, detail your critiques, point where the problem is, as
+otherwise, i'll have a hard time identifying what needs change
+and what doesn't.
+
+- Zenith's Outer Reach
+
+This is a Game that focus on a Protogen, an furry species created
+by CoolKoinu. Protogen live in ZOR, the main setting for the lore.
+As you play through the game, you'll see no mention of ZOR anywhere,
+that is, of course, by design, as i cannot dictate if this game is
+even canon-compatible, even i wish it was.
+It CAN be canon-compatible but that can only be dictated by the ones in 
+charge of the lore
+
+-Credits
+
+Protogens and Protogen lore(ZOR) is owned by CoolKoinu
+
+Gameboy Label owned by Zipon at Itch.io
+
+Gameboy Cartridge Vector by The-Desert-Tiger on DeviantArt.
+
+GB Studio © 2020 is owned by Chris Maltby
+
