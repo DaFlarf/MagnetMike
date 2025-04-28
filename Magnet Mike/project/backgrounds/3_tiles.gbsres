@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "a0efd629-832e-4362-8339-8fdd48db372b",
+  "name": "3_tiles",
+  "symbol": "bg_3_tiles",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "3_tiles.png",
+  "tileColors": ""
+}
