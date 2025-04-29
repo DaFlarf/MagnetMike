@@ -490,7 +490,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Why are the crates \nmagnetic?"
+          "Use the A button for\npositive charge, and\nB for negative."
         ],
         "__section": "text",
         "avatarId": "",
@@ -515,7 +515,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "...beats me..."
+          "Different charges will\nrepel or attract based\non the crates' charge!"
         ],
         "__section": "text",
         "avatarId": "",

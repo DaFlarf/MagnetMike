@@ -127,7 +127,7 @@
                         "id": "06b8f464-996e-4c51-8918-50d62bb0c02d",
                         "command": "EVENT_TEXT",
                         "args": {
-                          "text": "No Save Data\nFound...",
+                          "text": "Couldn't find \nany saves... get\ncracking!",
                           "__section": "text"
                         }
                       }

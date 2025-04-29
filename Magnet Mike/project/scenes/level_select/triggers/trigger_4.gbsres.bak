@@ -54,7 +54,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "I bet you think\nyou're reeal funny\n(who are you? flarf?)"
+          "I bet you think\nyou're reeal funny..\n"
         ],
         "__section": "text",
         "avatarId": "",
