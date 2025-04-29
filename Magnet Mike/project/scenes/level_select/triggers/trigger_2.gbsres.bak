@@ -54,7 +54,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Beat level 1 first, \nbuster!!!"
+          "Beat level 1 first, \nbuster!!"
         ],
         "__section": "text",
         "avatarId": "",

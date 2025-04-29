@@ -415,7 +415,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Mike, your job is pretty\ndang simple"
+          "Mike, your job is pretty\ndang simple. "
         ],
         "__section": "text",
         "avatarId": "",
@@ -440,7 +440,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "You've got the \nstrongest handheld\nelectromagnet\nin the world"
+          "You've got the \nstrongest handheld\nelectromagnet\nin the world,"
         ],
         "__section": "text",
         "avatarId": "",
@@ -465,7 +465,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "you've gotta use \nit to push some magnetic\ncrates to the right spot"
+          "use it to move some \nmagnetic crates to \nthe right spot."
         ],
         "__section": "text",
         "avatarId": "",
@@ -490,7 +490,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "why are the crates \nmagnetic?"
+          "Why are the crates \nmagnetic?"
         ],
         "__section": "text",
         "avatarId": "",
@@ -515,7 +515,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "beats me..."
+          "...beats me..."
         ],
         "__section": "text",
         "avatarId": "",

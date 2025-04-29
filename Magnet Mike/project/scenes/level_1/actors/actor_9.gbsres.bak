@@ -83,7 +83,7 @@
                         "command": "EVENT_SOUND_PLAY_EFFECT",
                         "args": {
                           "type": "c89a275a-9081-478d-8956-4050f802bc2f",
-                          "priority": "medium",
+                          "priority": "high",
                           "pitch": 4,
                           "frequency": 200,
                           "duration": 0.5,

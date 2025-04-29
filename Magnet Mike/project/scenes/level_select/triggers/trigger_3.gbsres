@@ -54,7 +54,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "don't be skipping around,\npal"
+          "Don't be skipping around,\npal..."
         ],
         "__section": "text",
         "avatarId": "",

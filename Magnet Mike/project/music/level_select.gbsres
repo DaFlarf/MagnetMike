@@ -1,0 +1,9 @@
+{
+  "_resourceType": "music",
+  "id": "96fa7f04-5346-40d8-8e38-438e3f5bf84b",
+  "name": "level select",
+  "symbol": "song_stage_music_a_copy",
+  "filename": "level select.uge",
+  "settings": {},
+  "type": "uge"
+}

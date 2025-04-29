@@ -131,7 +131,7 @@
         "variable": "L4",
         "value": {
           "type": "number",
-          "value": 4
+          "value": 0
         }
       },
       "id": "6ee0ff35-a430-46eb-806e-64b8aac4a8ea"
@@ -142,7 +142,7 @@
         "variable": "L5",
         "value": {
           "type": "number",
-          "value": 18
+          "value": 0
         }
       },
       "id": "7e87ace1-fffb-4b9e-b33b-47bed9484684"

@@ -415,7 +415,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Mike, your job is pretty\ndang simple"
+          "Mike, your job is pretty\ndang simple. "
         ],
         "__section": "text",
         "avatarId": "",
@@ -440,7 +440,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "You've got the \nstrongest handheld\nelectromagnet\nin the world"
+          "You've got the \nstrongest handheld\nelectromagnet\nin the world,"
         ],
         "__section": "text",
         "avatarId": "",
@@ -465,7 +465,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "use it to move some \nmagnetic crates to \nthe right spot"
+          "use it to move some \nmagnetic crates to \nthe right spot."
         ],
         "__section": "text",
         "avatarId": "",
@@ -490,7 +490,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "why are the crates \nmagnetic?"
+          "Use the A button for\npositive charge, and\nB for negative."
         ],
         "__section": "text",
         "avatarId": "",
@@ -515,7 +515,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "beats me..."
+          "Different charges will\nrepel or attract based\non the crates' charge!"
         ],
         "__section": "text",
         "avatarId": "",
