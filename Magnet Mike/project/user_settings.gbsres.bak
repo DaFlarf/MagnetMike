@@ -1,8 +1,14 @@
 {
   "_resourceType": "settings",
-  "worldScrollX": 116,
-  "worldScrollY": 300,
+<<<<<<< Updated upstream
+  "worldScrollX": 1356,
+  "worldScrollY": 1392,
+  "zoom": 337.5,
+=======
+  "worldScrollX": 0,
+  "worldScrollY": 0,
   "zoom": 137.5,
+>>>>>>> Stashed changes
   "navigatorSplitSizes": [
     205,
     30,
