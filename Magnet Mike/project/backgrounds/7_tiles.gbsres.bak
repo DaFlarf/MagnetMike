@@ -1,12 +1,12 @@
 {
   "_resourceType": "background",
-  "id": "e6b29e08-8fad-4412-b14b-c8d3dbb43ef0",
-  "name": "logo",
-  "symbol": "bg_logo",
+  "id": "c7513cd7-9897-49d3-a1f2-1e3438baaabe",
+  "name": "7_tiles",
+  "symbol": "bg_7_tiles",
   "width": 20,
   "height": 18,
   "imageWidth": 160,
   "imageHeight": 144,
-  "filename": "logo.png",
+  "filename": "7_tiles.png",
   "tileColors": ""
 }
