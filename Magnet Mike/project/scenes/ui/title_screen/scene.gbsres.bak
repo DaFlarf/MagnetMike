@@ -9,7 +9,7 @@
   "y": 76,
   "width": 20,
   "height": 18,
-  "backgroundId": "683d1aba-ae73-48eb-b86a-61d82e58de60",
+  "backgroundId": "a40132a2-2392-4fa0-92c2-12c70675ecfe",
   "tilesetId": "",
   "paletteIds": [],
   "spritePaletteIds": [],
@@ -144,5 +144,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": ""
+  "collisions": "00168+"
 }

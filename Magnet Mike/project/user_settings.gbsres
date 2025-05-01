@@ -1,8 +1,8 @@
 {
   "_resourceType": "settings",
-  "worldScrollX": 149,
-  "worldScrollY": 0,
-  "zoom": 137.5,
+  "worldScrollX": 596,
+  "worldScrollY": 934,
+  "zoom": 225,
   "navigatorSplitSizes": [
     205,
     30,
@@ -19,7 +19,7 @@
     "EVENT_SWITCH_SCENE",
     "EVENT_IF_ACTOR_AT_POSITION"
   ],
-  "debuggerEnabled": false,
+  "debuggerEnabled": true,
   "debuggerScriptType": "editor",
   "debuggerVariablesFilter": "all",
   "debuggerCollapsedPanes": [],

@@ -1,14 +1,8 @@
 {
   "_resourceType": "settings",
-<<<<<<< Updated upstream
-  "worldScrollX": 1356,
-  "worldScrollY": 1392,
-  "zoom": 337.5,
-=======
-  "worldScrollX": 0,
-  "worldScrollY": 0,
-  "zoom": 137.5,
->>>>>>> Stashed changes
+  "worldScrollX": 2369,
+  "worldScrollY": 2194,
+  "zoom": 475,
   "navigatorSplitSizes": [
     205,
     30,
@@ -25,7 +19,7 @@
     "EVENT_SWITCH_SCENE",
     "EVENT_IF_ACTOR_AT_POSITION"
   ],
-  "debuggerEnabled": false,
+  "debuggerEnabled": true,
   "debuggerScriptType": "editor",
   "debuggerVariablesFilter": "all",
   "debuggerCollapsedPanes": [],

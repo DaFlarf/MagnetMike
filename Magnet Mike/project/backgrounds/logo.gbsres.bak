@@ -1,6 +1,6 @@
 {
   "_resourceType": "background",
-  "id": "f8b1c7ad-7bb2-44b2-8189-175ae8698f11",
+  "id": "e6b29e08-8fad-4412-b14b-c8d3dbb43ef0",
   "name": "logo",
   "symbol": "bg_logo",
   "width": 20,
@@ -8,6 +8,5 @@
   "imageWidth": 160,
   "imageHeight": 144,
   "filename": "logo.png",
-  "tileColors": "",
-  "autoColor": false
+  "tileColors": ""
 }

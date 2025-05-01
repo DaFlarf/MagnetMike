@@ -131,7 +131,7 @@
         "variable": "L4",
         "value": {
           "type": "number",
-          "value": 18
+          "value": 17
         }
       },
       "id": "c8e3432c-3f3c-4044-b391-31699d07696c"
@@ -142,7 +142,7 @@
         "variable": "L5",
         "value": {
           "type": "number",
-          "value": 16
+          "value": 15
         }
       },
       "id": "2604e227-95d1-42d7-a361-f11b79738ee9"
@@ -605,7 +605,8 @@
                   "value": "L1"
                 }
               },
-              "__collapseElse": false
+              "__collapseElse": false,
+              "__collapse": true
             },
             "children": {
               "true": [
@@ -732,7 +733,8 @@
                   "value": "L0"
                 }
               },
-              "__collapseElse": false
+              "__collapseElse": false,
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -854,62 +856,62 @@
                     "__collapse": false
                   },
                   "id": "47c507a9-b645-4c68-8f8e-bb550d515363"
-                },
-                {
-                  "command": "EVENT_ACTOR_GET_POSITION",
-                  "args": {
-                    "actorId": "$self$",
-                    "vectorX": "L1",
-                    "vectorY": "L0",
-                    "__collapse": false
-                  },
-                  "id": "727b9f88-c76d-4141-9fd0-48a2504aeaef"
-                },
-                {
-                  "command": "EVENT_IF_ACTOR_AT_POSITION",
-                  "args": {
-                    "actorId": "$self$",
-                    "x": {
-                      "type": "variable",
-                      "value": "L4"
-                    },
-                    "y": {
-                      "type": "variable",
-                      "value": "L5"
-                    },
-                    "__collapseElse": true,
-                    "__collapse": false
-                  },
-                  "children": {
-                    "true": [
-                      {
-                        "command": "EVENT_INC_VALUE",
-                        "args": {
-                          "variable": "5"
-                        },
-                        "id": "a07c4c22-6eb1-467a-82ff-94b3a0e352b9"
-                      },
-                      {
-                        "command": "EVENT_SOUND_PLAY_EFFECT",
-                        "args": {
-                          "type": "c89a275a-9081-478d-8956-4050f802bc2f",
-                          "priority": "high",
-                          "pitch": 4,
-                          "frequency": 200,
-                          "duration": 0.5,
-                          "wait": true,
-                          "effect": 0
-                        },
-                        "id": "e9df14ae-2007-4eb6-8684-8bebf3ad5774"
-                      }
-                    ],
-                    "false": []
-                  },
-                  "id": "a636b908-05cd-46b6-b9bc-9c33bd068379"
                 }
               ]
             },
             "id": "7a57fa86-ea6f-4bbb-8010-1eea385a8fff"
+          },
+          {
+            "command": "EVENT_ACTOR_GET_POSITION",
+            "args": {
+              "actorId": "$self$",
+              "vectorX": "L1",
+              "vectorY": "L0",
+              "__collapse": false
+            },
+            "id": "727b9f88-c76d-4141-9fd0-48a2504aeaef"
+          },
+          {
+            "command": "EVENT_IF_ACTOR_AT_POSITION",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "variable",
+                "value": "L4"
+              },
+              "y": {
+                "type": "variable",
+                "value": "L5"
+              },
+              "__collapseElse": true,
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_INC_VALUE",
+                  "args": {
+                    "variable": "5"
+                  },
+                  "id": "a07c4c22-6eb1-467a-82ff-94b3a0e352b9"
+                },
+                {
+                  "command": "EVENT_SOUND_PLAY_EFFECT",
+                  "args": {
+                    "type": "c89a275a-9081-478d-8956-4050f802bc2f",
+                    "priority": "high",
+                    "pitch": 4,
+                    "frequency": 200,
+                    "duration": 0.5,
+                    "wait": true,
+                    "effect": 0
+                  },
+                  "id": "e9df14ae-2007-4eb6-8684-8bebf3ad5774"
+                }
+              ],
+              "false": []
+            },
+            "id": "a636b908-05cd-46b6-b9bc-9c33bd068379"
           }
         ]
       },
