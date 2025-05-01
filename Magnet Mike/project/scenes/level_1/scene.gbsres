@@ -23,14 +23,16 @@
         "value": {
           "type": "number",
           "value": 0
-        }
+        },
+        "__collapse": false
       },
       "id": "3757780f-719f-4957-b4c7-3122939f3cb8"
     },
     {
       "command": "EVENT_MUSIC_PLAY",
       "args": {
-        "musicId": "4b369971-b2fc-4b06-80f2-0e2fcdb16ac3"
+        "musicId": "4b369971-b2fc-4b06-80f2-0e2fcdb16ac3",
+        "__collapse": false
       },
       "id": "cc71e22f-72ff-4693-ba2f-d4d579bd2f90"
     },

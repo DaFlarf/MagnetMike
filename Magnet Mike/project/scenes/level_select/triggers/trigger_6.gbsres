@@ -32,7 +32,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "I've had enough of this crap!"
+                "No"
               ],
               "__section": "text",
               "avatarId": "",

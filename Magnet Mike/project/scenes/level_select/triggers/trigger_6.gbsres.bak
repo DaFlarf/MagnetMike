@@ -24,7 +24,7 @@
             "value": 5
           }
         },
-        "__collapseElse": true
+        "__collapseElse": false
       },
       "children": {
         "true": [
@@ -32,7 +32,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "I've had enough of this crap!"
+                "The answer is still no"
               ],
               "__section": "text",
               "avatarId": "",
@@ -54,26 +54,27 @@
             "id": "33659ed8-dfac-4ddb-a0ac-34514ff996b1"
           }
         ],
-        "false": []
+        "false": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "1b881412-4875-4601-bc55-d10c1e026eb1",
+              "x": {
+                "type": "number",
+                "value": 1
+              },
+              "y": {
+                "type": "number",
+                "value": 4
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "5acb3c3d-105c-4a14-976e-ec6cb07ec2b5"
+          }
+        ]
       },
       "id": "5dd89e75-456a-4863-80f4-b69b66048e8e"
-    },
-    {
-      "command": "EVENT_SWITCH_SCENE",
-      "args": {
-        "sceneId": "1b881412-4875-4601-bc55-d10c1e026eb1",
-        "x": {
-          "type": "number",
-          "value": 1
-        },
-        "y": {
-          "type": "number",
-          "value": 4
-        },
-        "direction": "",
-        "fadeSpeed": "2"
-      },
-      "id": "5acb3c3d-105c-4a14-976e-ec6cb07ec2b5"
     }
   ],
   "leaveScript": [],
