@@ -47,7 +47,7 @@
                 },
                 "valueB": {
                   "type": "number",
-                  "value": 6
+                  "value": 5
                 }
               },
               "__collapseElse": true
@@ -60,7 +60,7 @@
                     "variable": "7",
                     "value": {
                       "type": "number",
-                      "value": 6
+                      "value": 5
                     }
                   },
                   "id": "d74fd57e-6111-49db-98e7-b674a909fcd2"

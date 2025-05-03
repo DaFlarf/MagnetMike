@@ -71,6 +71,21 @@
             "id": "346ceae7-1024-44b4-a59a-c626793181fe"
           },
           {
+            "command": "EVENT_MUSIC_PLAY",
+            "args": {
+              "musicId": "0343e2fb-90ce-406c-8a09-8878187e2ad0"
+            },
+            "id": "700833fe-48d7-432f-bf0d-97ca06d55f79"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 3,
+              "frames": 30
+            },
+            "id": "693bc39d-cee3-4695-8adf-9ba136058f77"
+          },
+          {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
               "sceneId": "5295451a-ca61-4b0d-ad4e-0a335d230f94",
