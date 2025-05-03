@@ -145,21 +145,6 @@
         }
       },
       "id": "7d076409-9451-47ce-a149-c0a262eb6e29"
-    },
-    {
-      "command": "EVENT_ACTOR_SET_POSITION",
-      "args": {
-        "actorId": "$self$",
-        "x": {
-          "type": "number",
-          "value": 2
-        },
-        "y": {
-          "type": "number",
-          "value": 3
-        }
-      },
-      "id": "cb2db2ed-f17f-43a7-9a05-89f7555038ca"
     }
   ],
   "updateScript": [],

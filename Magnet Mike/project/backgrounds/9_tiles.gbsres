@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "4422ab72-7b0a-4f39-b734-79160a5af5aa",
+  "name": "9_tiles",
+  "symbol": "bg_9_tiles",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "9_tiles.png",
+  "tileColors": ""
+}

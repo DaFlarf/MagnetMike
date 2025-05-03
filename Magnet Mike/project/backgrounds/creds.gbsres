@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "7db7dec4-bd10-4971-ab82-1b6841a87b9a",
+  "name": "creds",
+  "symbol": "bg_creds",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "creds.png",
+  "tileColors": ""
+}

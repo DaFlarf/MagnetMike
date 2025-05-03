@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "206b624d-ae0c-41c1-962f-d1338708ce72",
+  "_index": 15,
+  "name": "Level 9",
+  "backgroundId": "4422ab72-7b0a-4f39-b734-79160a5af5aa",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_16",
+  "x": 136,
+  "y": 616,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

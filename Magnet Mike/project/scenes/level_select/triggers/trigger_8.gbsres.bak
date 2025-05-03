@@ -31,7 +31,9 @@
           {
             "command": "EVENT_TEXT",
             "args": {
-              "text": "",
+              "text": [
+                "you don't value my\nopinion, do you :("
+              ],
               "__section": "text",
               "avatarId": "",
               "minHeight": 4,

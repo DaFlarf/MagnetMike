@@ -66,6 +66,33 @@
       "id": "a84ffdcb-9fea-4e07-a0ff-aa92d731e1ca"
     },
     {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "If you hadn't already \nnoticed, your Magnet \nGun can't push objects\nthat are right next to\nyou. ",
+          "Press the direction you \nwant them to move + the\nopposite charge button\nof the crate to give it \na hearty shove!",
+          "Sometimes ya gotta put\nsome muscle into it, huh?"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "5c899a22-8f14-4bdc-a77d-9342c2e40de4"
+    },
+    {
       "command": "EVENT_SET_VALUE",
       "args": {
         "variable": "5",
@@ -420,5 +447,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": "0f15+0012+08!0f2+0011+08!0f2+0010+0f5+00f+0f5+0010+0f!04!0012+0f!04!006+0f4+002+0f3+002+0f2+04!006+0f4+002+0f3+002+0f2+04!0013+04!0013+04!00!0fb+002+0f5+04!00!0fb+002+0f5+04!0012+08!04!0012+08!04!0012+08!04!0012+08!0f14+"
+  "collisions": "0f15+0012+08!0f2+0011+08!0f2+0010+0f5+00f+0f5+0010+0f!04!0012+0f!04!006+0f4+002+0f3+002+0f2+04!006+0f4+002+0f3+002+0f2+04!0013+04!0013+04!00!0fb+002+0f5+04!00!0fb+002+0f5+04!0012+08!04!0012+08!04!0012+08!04!0012+08!0f14+",
+  "autoFadeEventCollapse": false
 }
