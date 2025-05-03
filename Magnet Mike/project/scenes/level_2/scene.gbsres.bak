@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "a839f85f-49cd-415f-bdb6-5e8c9f6aa916",
-  "_index": 6,
+  "_index": 3,
   "name": "Level 2",
   "backgroundId": "aba2b10f-23da-40d8-ae84-8ec83bda35e4",
   "tilesetId": "",
@@ -13,8 +13,8 @@
   "collisions": "0f15+00d+0f2+003+08!0f!00d+0f2+00!0f4+00d+0f2+00!0f4+0012+08!0f!0012+08!0f!00d+0f3+00!0f3+00d+0f3+00!0f3+00d+0f7+00d+0f7+00d+0f3+002+08!0f!002+0f2+009+0f3+002+0f2+002+0f2+009+0f3+002+0f2+002+0f2+009+0f3+002+0f2+002+0f2+00e+0f2+002+0f2+00e+0f2+002+0f9+003+0f11+023+0f5+",
   "autoFadeSpeed": 1,
   "symbol": "scene_7",
-  "x": 688,
-  "y": 272,
+  "x": 312,
+  "y": 264,
   "script": [
     {
       "command": "EVENT_CAMERA_PROPERTY_SET",
@@ -406,6 +406,30 @@
               "false": []
             },
             "id": "dc31b35f-50b1-4b88-af70-562581e221db"
+          },
+          {
+            "command": "EVENT_SET_INPUT_SCRIPT",
+            "args": {
+              "input": [
+                "start"
+              ],
+              "override": true,
+              "__scriptTabs": "press"
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_CHOICE",
+                  "args": {
+                    "variable": "L0",
+                    "trueText": "level select",
+                    "falseText": "cancel"
+                  },
+                  "id": "7862a1d1-8416-4b32-bed7-c72c4ef936fd"
+                }
+              ]
+            },
+            "id": "cc9892eb-6504-4f50-b9e5-dfdc4be899e0"
           }
         ]
       },
