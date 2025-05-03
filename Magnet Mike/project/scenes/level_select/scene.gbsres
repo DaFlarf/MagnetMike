@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "5295451a-ca61-4b0d-ad4e-0a335d230f94",
-  "_index": 7,
+  "_index": 4,
   "name": "Level Select",
   "backgroundId": "f53c5881-e25c-4bff-8b63-4e5f8b6102d0",
   "tilesetId": "",
@@ -13,8 +13,8 @@
   "collisions": "00168+",
   "autoFadeSpeed": 1,
   "symbol": "scene_8",
-  "x": 784,
-  "y": 80,
+  "x": 488,
+  "y": 72,
   "script": [
     {
       "command": "EVENT_MUSIC_PLAY",

@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "e0fc8c66-5daa-4008-a388-3885ca6d1544",
-  "_index": 13,
+  "_index": 10,
   "name": "Level 8",
   "backgroundId": "a0e57db6-7a9c-4e2a-9784-1e993b80d6b7",
   "tilesetId": "",
@@ -13,8 +13,8 @@
   "collisions": "0f14+04!00a+0f6+002+08!04!00a+0f6+002+08!04!00c+0f4+002+08!04!00c+0f7+04!00c+0f7+04!0010+0f2+08!04!0010+0f2+08!0f5+002+0f8+002+0f2+08!0f5+002+0f8+002+0f2+08!0f5+00e+08!0f5+00e+08!0012+0f2+007+0f2+009+0f6+003+0f2+00a+0f5+00f+0f6+00b+0f18+",
   "autoFadeSpeed": 1,
   "symbol": "scene_14",
-  "x": 816,
-  "y": 448,
+  "x": 656,
+  "y": 440,
   "script": [
     {
       "command": "EVENT_CAMERA_PROPERTY_SET",

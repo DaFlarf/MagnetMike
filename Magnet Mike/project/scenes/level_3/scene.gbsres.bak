@@ -69,7 +69,9 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "If you hadn't already \nnoticed, your Magnet \nGun can't push objects"
+          "If you hadn't already \nnoticed, your Magnet \nGun can't push objects\nthat are right next to\nyou. ",
+          "Press the direction you \nwant them to move + the\nopposite charge button\nof the crate to give it \na hearty shove!",
+          "Sometimes ya gotta put\nsome muscle into it, huh?"
         ],
         "__section": "text",
         "avatarId": "",
