@@ -31,7 +31,9 @@
           {
             "command": "EVENT_TEXT",
             "args": {
-              "text": "",
+              "text": [
+                "AHAHAHAHAHAH.....\n\nyou're serious?"
+              ],
               "__section": "text",
               "avatarId": "",
               "minHeight": 4,
@@ -49,7 +51,7 @@
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30
             },
-            "id": "b7e22278-7ffb-4023-961c-849d1380e538"
+            "id": "b31f7465-442a-4848-a81c-2245a711ff40"
           }
         ],
         "false": [

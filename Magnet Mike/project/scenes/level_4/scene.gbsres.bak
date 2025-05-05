@@ -406,6 +406,69 @@
               "false": []
             },
             "id": "39a4f4bf-9e2e-4bdc-b611-f7c63a7cb5d7"
+          },
+          {
+            "command": "EVENT_SET_INPUT_SCRIPT",
+            "args": {
+              "input": [
+                "start"
+              ],
+              "override": true,
+              "__scriptTabs": "press"
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_CHOICE",
+                  "args": {
+                    "variable": "L0",
+                    "trueText": "to level select",
+                    "falseText": "cancel"
+                  },
+                  "id": "a720d2c7-e65a-4fb9-95d3-240e68e54f0a"
+                },
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "eq",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "L0"
+                      },
+                      "valueB": {
+                        "type": "true"
+                      }
+                    },
+                    "__collapseElse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_SWITCH_SCENE",
+                        "args": {
+                          "sceneId": "5295451a-ca61-4b0d-ad4e-0a335d230f94",
+                          "x": {
+                            "type": "number",
+                            "value": 2
+                          },
+                          "y": {
+                            "type": "number",
+                            "value": 2
+                          },
+                          "direction": "",
+                          "fadeSpeed": "2"
+                        },
+                        "id": "01c39265-489f-4a4f-88b5-6a09072be5c8"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "62acca45-6ec2-490b-9701-a6483e6c5e29"
+                }
+              ]
+            },
+            "id": "1f0690d7-d417-441b-a2ad-7734e36a3494"
           }
         ]
       },

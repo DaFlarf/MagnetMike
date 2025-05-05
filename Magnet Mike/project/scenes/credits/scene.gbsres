@@ -29,6 +29,38 @@
         "musicId": "a07f83d2-14d1-4b60-9387-2c697a8822eb"
       },
       "id": "9b78edee-83df-4258-92d0-cbdbbfcb1f01"
+    },
+    {
+      "command": "EVENT_IF_INPUT",
+      "args": {
+        "input": [
+          "start"
+        ],
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "4912bee2-387a-472f-ae4f-6679b6149517",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "0721c0d2-9f2f-4978-8f4b-6b9fc62ba419"
+          }
+        ],
+        "false": []
+      },
+      "id": "d9cf0312-2473-4f20-8561-d87b91ebc3ba"
     }
   ],
   "playerHit1Script": [],

@@ -32,7 +32,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "take a hint!"
+                "Take a hint!"
               ],
               "__section": "text",
               "avatarId": "",

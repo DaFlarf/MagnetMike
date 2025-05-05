@@ -426,6 +426,45 @@
                     "falseText": "cancel"
                   },
                   "id": "7c381dd9-c8af-456e-9d70-866edec1a3ba"
+                },
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "eq",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "L0"
+                      },
+                      "valueB": {
+                        "type": "true"
+                      }
+                    },
+                    "__collapseElse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_SWITCH_SCENE",
+                        "args": {
+                          "sceneId": "5295451a-ca61-4b0d-ad4e-0a335d230f94",
+                          "x": {
+                            "type": "number",
+                            "value": 2
+                          },
+                          "y": {
+                            "type": "number",
+                            "value": 2
+                          },
+                          "direction": "",
+                          "fadeSpeed": "2"
+                        },
+                        "id": "bba26019-73e5-4878-a09a-ebff814fb87d"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "c99a96b5-1123-4927-8933-df335dbdb698"
                 }
               ]
             },
