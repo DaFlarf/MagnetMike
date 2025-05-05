@@ -69,9 +69,9 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "If you hadn't already \nnoticed, your Magnet \nGun can't push objects\nthat are right next to\nyou. ",
-          "Press the direction you \nwant them to move + the\nopposite charge button\nof the crate to give it \na hearty shove!",
-          "Sometimes ya gotta put\nsome muscle into it, huh?"
+          "If you hadn't already \nnoticed, your Magnet ",
+          "Gun can't push objects\nthat are right next",
+          "to you."
         ],
         "__section": "text",
         "avatarId": "",
@@ -91,6 +91,58 @@
         "closeDelayFrames": 30
       },
       "id": "5c899a22-8f14-4bdc-a77d-9342c2e40de4"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Press the direction you \nwant them to move + the",
+          "opposite charge button\nof the crate to give it ",
+          "a hearty shove!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "56d4129e-bd49-466a-a89a-dcf0331757cf"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Sometimes ya gotta put \nsome muscle into it, huh?"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "e3747d1f-8004-4925-805c-b67cda4ad0b6"
     },
     {
       "command": "EVENT_SET_VALUE",
@@ -475,7 +527,25 @@
                     "__collapseElse": true
                   },
                   "children": {
-                    "true": [],
+                    "true": [
+                      {
+                        "command": "EVENT_SWITCH_SCENE",
+                        "args": {
+                          "sceneId": "5295451a-ca61-4b0d-ad4e-0a335d230f94",
+                          "x": {
+                            "type": "number",
+                            "value": 0
+                          },
+                          "y": {
+                            "type": "number",
+                            "value": 0
+                          },
+                          "direction": "",
+                          "fadeSpeed": "2"
+                        },
+                        "id": "f81a1a5d-0017-4cc2-a2c8-582e01ea87f4"
+                      }
+                    ],
                     "false": []
                   },
                   "id": "ff60749c-ad74-4eaa-a784-2105d330eca8"

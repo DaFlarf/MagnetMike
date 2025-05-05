@@ -505,7 +505,10 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "You've got the \nstrongest handheld\nelectromagnet\nin the world,"
+          "You've got the \nstrongest handheld",
+          "electromagnet\nin the world,",
+          "use it to move some \nmagnetic crates to ",
+          "the right spot."
         ],
         "__section": "text",
         "avatarId": "",
@@ -530,32 +533,8 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "use it to move some \nmagnetic crates to \nthe right spot."
-        ],
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
-      },
-      "id": "9f70dbf0-42f1-4196-a533-797e9668315f"
-    },
-    {
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": [
-          "Use the A button for\npositive charge, and\nB for negative."
+          "Use the A button for\npositive charge, and",
+          "B for negative."
         ],
         "__section": "text",
         "avatarId": "",
@@ -580,7 +559,8 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Different charges will\nrepel or attract based\non the crates' charge!"
+          "Different charges will\nrepel or attract based",
+          "on the crates' charge!"
         ],
         "__section": "text",
         "avatarId": "",
